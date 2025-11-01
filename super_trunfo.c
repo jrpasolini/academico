@@ -49,5 +49,5 @@ printf("Carta 1 - Estado: %s | Codigo: %s | Cidade: %s | Populacao: %d | Area: %
 printf("Carta 2 - Estado: %s | Codigo: %s | Cidade: %s | Populacao: %d | Area: %.2f km² | PIB: R$ %.2f bilhões | Pontos Turisticos: %d\n", estado2, codigo2, cidade2, populacao2, areacidade2, PIB2, pontosturisticos2);
 
 
-return 0;
+return 0; // aqui terminamos o programa.
 }
