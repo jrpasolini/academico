@@ -1,2 +1,2 @@
-# pasolini
-acadêmico e projetos pessoais
+# academico
+Conteudo acadêmico, estudos e experimentos.
