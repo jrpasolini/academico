@@ -1,8 +1,15 @@
 #include <stdio.h>
+
+// Desafio Super Trunfo - Países
+// Tema 1 - Cadastro das cartas
+// Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
+
 int main (){
+
+    // Área para definição das variáveis para armazenar as propriedades das cidades
+
 printf("Vamos iniciar nosso jogo de Super Trunfo!\nPara isso, iremos coletar dados de 2 cartas distintas sobre 2 estados brasileiros\nPreencha os dados conforme solicitaado e vamos iniciar a brincadeira!\n");
-/* Adicionei valores para as variaveis no intuito de preencher o buffer de memória, utilizando varias variaveis dentro do mesmo tipo de entrada de dados*/
-char estado1[40] = "estadoum", estado2[40] = "estadodois";     // utilizei um array de 40 caracteres para garantir que o nome do estado caiba na variavel
+char estado1[3] = "a67", estado2[3] = "b67";     // utilizei um array de 3 caracteres para garantir que a sigla do estado caiba na variavel
 char codigo1[4] = "A97", codigo2[4] = "A96";         //aqui utilizei um array de 3 caracteres devido ao codigo da carta ser uma letra + 2 numreos.  
 char cidade1[30] = "vilax", cidade2[30] = "vilay";     //Mesmo tamanho do array para não ter problemas com o tamanho do nome da cidade.
 int populacao1 = 12323, populacao2 = 111222;         //populacao do estado em valor inteiro para as 2 cidades
@@ -10,9 +17,9 @@ float areacidade1 = 3.23, areacidade2 = 3.24;                 //usando float par
 float PIB1 = 5.12, PIB2 = 12.54;                     
 int pontosturisticos1 = 11, pontosturisticos2 = 13; //entrada de pontos turisticos como valor inteiro
 
-/* Agora vamos iniciar a coleta de dados para as 2 cartas de maneira interativa abaixo:*/
+ // Área para entrada de dados
 
-printf("Carta 1 - Informe o nome do estado: ");
+printf("Carta 1 - Informe a sigla do estado: ");
 scanf("%s", &estado1);
 printf("Informe o codigo da carta (uma letra + 2 numeros): ");
 scanf("%s", &codigo1);
@@ -30,7 +37,7 @@ scanf("%d", &pontosturisticos1);
 /* Aqui começamos com os dados da carta 2*/
 
 printf("Ótimo! Agora vamos para os dados da segunda carta.\n");
-printf("Carta 2 - Informe o nome do estado: ");
+printf("Carta 2 - Informe a sigla do estado: ");
 scanf("%s", &estado2);
 printf("Informe o codigo da carta (uma letra + 2 numeros): ");
 scanf("%s", &codigo2);
