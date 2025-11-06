@@ -1,4 +1,4 @@
-#include <stdio.h>;
+#include <stdio.h>
 int main() {
     int idade, matricula;
     float altura;
@@ -18,4 +18,5 @@ int main() {
 
     printf ("Nome do aluno: %s - Matricula: %d\n", nome, matricula);
     printf ("Idade %d - altura %.2f", idade, altura);
+    return 0;
 }  
