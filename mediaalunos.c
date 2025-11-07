@@ -19,7 +19,7 @@ printf("-x-x-x-x-x-x- Programa para calcular a média de um aluno -x-x-x-x-x-x-\
     float total = nota1 + nota2 + nota3 + nota4;
     printf("O total das notas do aluno %s é: %.2f\n", nome, total);
     float media = total / 4;
-    printf("A média do aluno %s é: %f\n", nome, media);
+    printf("A média do aluno %s é: %.2f\n", nome, media);
 
     return 0;
 
