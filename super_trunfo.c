@@ -67,7 +67,7 @@ pibpercapita2 = PIB2  / (float)populacao2; // calculo do PIB per capita do Cidad
 printf ("E aqui vão alguns dados extras: \n");
 printf("Densidade Populacional - %s: %.2f habitantes/km²\n", cidade1, densidade1);
 printf("Densidade Populacional - %s: %.2f habitantes/km²\n", cidade2, densidade2);
-printf("PIB per Capita - %s: R$ %.2f\n", cidade1, pibpercapita1 * 10000000); //multiplicando por mil para converter o valor do PIB per capita para reais
+printf("PIB per Capita - %s: R$ %.2f\n", cidade1, pibpercapita1 * 10000000); //multiplicando por 10 milhões para aumentar a escala e corrigir a apresentação do numero
 printf("PIB per Capita - %s: R$ %.2f\n", cidade2, pibpercapita2 * 10000000);
 
 return 0; // aqui terminamos o programa.
