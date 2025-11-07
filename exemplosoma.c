@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <windows.h> /* necessário para função Sleep */
+
+int main() {
+    int num1, num2, soma;
+    // Lendo dois números do usuário
+    printf("Digite o primeiro número: ");
+    scanf("%d", &num1);
+    printf("Digite o segundo número: ");
+    scanf("%d", &num2);
+    // Calculando a soma dos dois números
+    soma = num1 + num2;
+ 
+    // Exibindo o resultado
+    printf("A soma de %d e %d é: %d\n", num1, num2, soma);
+    Sleep(3000); /* pausa por 3 segundos (3000 milissegundos) */
+    printf("Bye bye!!!");
+    return 0;
+}
+
