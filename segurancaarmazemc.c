@@ -18,8 +18,8 @@ printf("Insira o nome do armazém: ");
     /* verificação de segurança dos valores */
 
 if (temperatura < 30.0) { 
-    printf(" A temperatura está alta\n");
-} else { printf(" A temperatura está dentro dos parametros\n"); }
+    printf("A temperatura está alta\n");
+} else { printf("A temperatura está dentro dos parametros\n"); }
 if (umidade < 50) {
     printf("Umidade em estado crítico\n");
 } else {
